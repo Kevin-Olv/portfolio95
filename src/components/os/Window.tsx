@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { PropsWithChildren, ReactNode, useEffect, useRef, useState } from 'react';
 import { IconName } from '../../assets/icons';
 import colors from '../../constants/colors';
 import Colors from '../../constants/colors';
@@ -7,7 +7,7 @@ import Button from './Button';
 import DragIndicator from './DragIndicator';
 import ResizeIndicator from './ResizeIndicator';
 
-export interface WindowProps {
+export interface WindowProps{
     closeWindow: () => void;
     minimizeWindow: () => void;
     onInteract: () => void;
@@ -20,6 +20,7 @@ export interface WindowProps {
     rainbow?: boolean;
     windowBarColor?: string;
     windowBarIcon?: IconName;
+    children? : ReactNode | undefined;
     onWidthChange?: (width: number) => void;
     onHeightChange?: (height: number) => void;
 }
