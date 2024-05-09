@@ -37,14 +37,12 @@ const About: React.FC<AboutProps> = (props) => {
                 <h3>About Me</h3>
                 <br />
                 <p>
-                    From a young age, I have had a curiosity about how things
-                    worked. This naturally led me to become absolutely obsessed
-                    with Lego and I fell in love with building things. In
-                    elementary school, I joined the Lego Robotics team at my
-                    local middle school, which was my first real exposure to
-                    programming. In 2008, my family and I moved across the
-                    country from California to New York, where I attended middle
-                    school, high school, and college.
+                Growing up, I always had a fascination with building things, 
+                whether that be legos or computers. It wasn’t until college that 
+                I realized I love the idea of building something, but I hate actually 
+                building things. Legos are great until you realize it’s going to take 
+                you 8 hours to put together thousands of pieces of plastic to kiiiind 
+                of resemble the Millennium Falcon from Star Wars. 
 
                 </p>
                 <br />
@@ -52,39 +50,24 @@ const About: React.FC<AboutProps> = (props) => {
                     <img src={me} style={styles.image} alt="" />
                     <p>
                         <sub>
-                            <b>Figure 1:</b> A real photo of me developing this
-                            website :)
+                            <b>Figure 1:</b> My Lego Millenium Falcon
                         </sub>
                     </p>
                 </div>
 
                 <p>
-                    I started programming more seriously in high school,
-                    initially learning how to scrape and interact with websites.
-                    I went on to do a ton of passion projects, many of them with
-                    one of my closest friends,{' '}
-                    <a
-                        rel="noreferrer"
-                        target="_blank"
-                        href="https://www.linkedin.com/in/kevin-olvera/"
-                    >
-                        Scott Bass
-                    </a>
-                    . We worked on many projects together, including chat bots,
-                    multiple game projects, apps, and more. One of these
-                    projects is viewable on my{' '}
-                    <Link to="/projects/software">Software Projects</Link> page.
+                I wrote my first line of code at 13 when my uncle told me that I 
+                wasn’t gonna waste away my summer playing video games and instead 
+                I had to learn Python so I can be rich one day and retire him. I didn’t 
+                get far beyond print(‘Hello World’). Sorry Sergio, might take a bit longer 
+                than you had hoped.
                 </p>
                 <br />
                 <p>
-                    In 2017, I got accepted into Rennselear Polytechnic
-                    Institute to study Computer Science. It was my first choice
-                    and I was absolutely ecstatic to be going to such a great
-                    university. At the end of my sophomore year, I got an
-                    internship working for the startup Hover, primarily focusing
-                    on frontend work. I continued to work at Hover on and off
-                    for about a year and a half, until the start of my senior
-                    year when I decided to focus on other opportunities.
+                In 2019, I was accepted to the University of Notre Dame to study Aerospace Engineering. 
+                I expected this major to be similar to building that Lego Millenium Falcon just with real 
+                parts, I was wrong. Figured I was pretty good at printing ‘Hello World’ so I decided to switch 
+                my major to Computer Science. 
                 </p>
                 <br />
                 <br />
