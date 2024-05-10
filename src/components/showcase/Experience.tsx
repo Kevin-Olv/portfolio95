@@ -10,7 +10,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>Fast</h1>
+                        <h1>Fast Enterpirses</h1>
                         <a
                             rel="noreferrer"
                             target="_blank"
@@ -29,23 +29,50 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                As a developer, I worked directly with the Maryland Department of Transportation to understand complex Driver Services scenarios and built software to meet their needs.
+                As a developer for Fast, I strive to modernize 
+                essential software and services for the citizens 
+                and government of Maryland.
+
+                I work directly with the Maryland Department of Transportation to 
+                understand complex issues and build software to meet their needs.
+
                 </p>
                 <br />
+                <p> In the last year, I've become proficient in utilizing C# and 
+                    SQL for daily job functions, 
+                    adept at developing robust software solutions and managing 
+                    database systems. I've also mastered designing documents, forms, 
+                    and reports to streamline data visualization and enhance 
+                    organizational efficiency.</p>
+                <br />
+                <p> During my time at Fast, I've </p>
                 <ul>
                     <li>
                         <p>
-                        Modernized essential software and services for citizens and government.s
+                        Collaborated with other developers to refactor our 
+                        legacy code into the new Core21 version, improving 
+                        maintainability and ensuring a smooth rollout with minimal downtime.
                         </p>
                     </li>
                     <li>
                         <p>
-                        Contributed to several other subsystems, including driver records, cases, letters, reports, etc.
+                        Created a new tool in our system to import 
+                        relevant documents and notes from previously 
+                        closed Medical Overview Cases to new ones.
                         </p>
                     </li>
                     <li>
                         <p>
-                        Utilized C# and SQL daily to complete projects.
+                        Addressed interventions in multiple subsystems 
+                        including driver records, cases, letters, 
+                        reports, etc
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                        Collaborated closely with team members to 
+                        troubleshoot issues and optimize software 
+                        performance for government use cases.
                         </p>
                     </li>
                 </ul>
@@ -72,20 +99,31 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                Worked with Oracle's Global Business Unit 
-                to further advance their NetSuite product for 
-                government finances.
+                As a Software Engineering Intern at Oracle, I played a 
+                role in enhancing the Netsuite product for local 
+                and state governments through JavaScript development. 
+                Operating within an Agile framework, I collaborated 
+                with the team to meet project milestones and customer 
+                expectations efficiently. 
                 </p>
                 <br />
                 <ul>
                     <li >
-                        <p>Generated efficient, modular and maintainable code 
-                            on both front-end and back-end using Javascript.
+                        <p>
+                        Learned and leveraged JavaScript to implement key features 
+                        and enhancements in Netsuite for government clients.
                         </p>
                     </li>
                     <li >
-                        <p>Worked with software team members to enhance and 
-                            sustain automated builds and integration tests.
+                        <p>
+                        Engaged in Agile methodologies to adapt quickly to 
+                        evolving project requirements and deliverables.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                        Developed comprehensive unit tests to validate 
+                        code functionality and maintain high-quality standards.
                         </p>
                     </li>
                 </ul>
@@ -106,11 +144,35 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                Leveraged my expertise in SQL and Microsoft Excel to extract 
-                actionable insights from complex datasets, developed and maintain 
-                key performance indicators to track the performance of transportation operations.
+                At KR Logistics, I expertly utilized SQL and Microsoft Excel 
+                to extract valuable insights from intricate datasets, contributing 
+                significantly to operational efficiency. Through my efforts, I 
+                developed and maintained essential key performance indicators (KPIs) 
+                to monitor and evaluate the performance of transportation operations, 
+                enabling data-driven decision-making and optimization strategies.
                 </p>
                 <br />
+                <ul>
+                    <li>
+                        <p>
+                        Employed SQL queries to extract and manipulate data from 
+                        diverse datasets, facilitating informed decision-making processes.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                        Developed and maintained comprehensive KPIs to assess 
+                        and improve the efficiency of transportation operations. 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                        Leveraged Microsoft Excel's advanced functionalities to analyze 
+                        data trends, identify bottlenecks, and propose strategic solutions for optimization. 
+                        </p>
+                    </li>
+                </ul>
+                
             </div>
             <div style = {styles.headerContainer}>
                 <div style = {styles.header}>
@@ -133,17 +195,32 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 </div>
             </div>
             <div className='text-block'>
+                <p>
+                As an Internal Giving Specialist at IDEA Public Schools, 
+                I played a multifaceted role in data management, donor 
+                outreach, and data visualization.
+                </p>
                 <ul>
                     <li>
                         <p>
-                        Inputted and organized large volumes of 
-                        data into Microsoft Excel spreadsheets. 
+                        Demonstrated proficiency in data input and 
+                        organization using Microsoft Excel, ensuring 
+                        data accuracy and accessibility for analysis. 
                         </p>
                     </li>
                     <li>
                         <p>
-                        Designed interactive dashboards in Tableau 
-                        to present complex data insights in a user-friendly manner.   
+                        Designed and developed interactive dashboards in 
+                        Tableau, enabling stakeholders to explore and 
+                        understand complex data insights intuitively, 
+                        ultimately aiding in informed decision-making.  
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                        Successfully secured funding for scholarships 
+                        through proactive outreach and communication with 
+                        donors, contributing to students' college matriculation.
                         </p>
                     </li>
                 </ul>

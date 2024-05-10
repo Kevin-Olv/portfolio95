@@ -56,18 +56,21 @@ const About: React.FC<AboutProps> = (props) => {
                 </div>
 
                 <p>
-                I wrote my first line of code at 13 when my uncle told me that I 
-                wasn’t gonna waste away my summer playing video games and instead 
-                I had to learn Python so I can be rich one day and retire him. I didn’t 
-                get far beyond print(‘Hello World’). Sorry Sergio, might take a bit longer 
-                than you had hoped.
+                In 2019, I was accepted to the University of Notre Dame 
+                where I studied Computer Science. It was here that I realized,
+                Throughout my time there, I interned at IDEA Public Schools, 
+                KR Logistics, and Oracle.  After graduating, I landed a job 
+                with Fast Enterprises developing software with Maryland’s 
+                Department of Transportation.  
                 </p>
                 <br />
                 <p>
-                In 2019, I was accepted to the University of Notre Dame to study Aerospace Engineering. 
-                I expected this major to be similar to building that Lego Millenium Falcon just with real 
-                parts, I was wrong. Figured I was pretty good at printing ‘Hello World’ so I decided to switch 
-                my major to Computer Science. 
+                Over these years I gained
+                 experience in many different technologies, ranging from 
+                 backend development with SQL to front-end development with 
+                 React to make this website.The piece of paper that is my 
+                 resume tells you my qualifications, but my goal is for this 
+                 website to tell you my story.
                 </p>
                 <br />
                 <br />
@@ -83,30 +86,28 @@ const About: React.FC<AboutProps> = (props) => {
                         <h3>My Hobbies</h3>
                         <br />
                         <p>
-                            Beyond software, I have a lot of hobbies that I
-                            enjoy doing in my free time. The more tangible
-                            hobbies I have are{' '}
-                            <Link to="/projects/music">Music Production</Link>{' '}
-                            and creating{' '}
-                            <Link to="/projects/art">Digital Art</Link>. You can
-                            read more about each of these on their respective
-                            pages under my projects tab. Some other hobbies I
-                            enjoy are working out, cooking, and (unsurprisingly)
-                            playing video games.
+                            Beyond software, I love watching movies. My family's pastime was
+                            buying two movie tickets and managing to get a family 
+                            of 5 in. Sometimes we'd sneak into a second movie if we saw
+                            something good playing in the theatre next to us.
+                            (Unfortunately, AMC caught on and now requires you pick your seats.)
+                            Like every real stem major, my favorite movie is Interstellar. (Dune 2 
+                            might take its spot, let me give it sometime to confirm this isn't recency bias)
+                            
                         </p>
                         <br />
                         <p>
-                            In college, I was an active member in the fraternity
-                            Sigma Alpha Epsilon and held multiple positions in
-                            the chapter. I met a lot of amazing people through
-                            my fraternity and thoroughly enjoyed the community.
+                        Some other hobbies I
+                            enjoy are working out (anything but legs), watching F1, and 
+                            playing video games until my friends and I accept that we are not very good at the
+                            game we play everyday. 
                         </p>
                     </div>
                     <div style={styles.verticalImage}>
                         <img src={meNow} style={styles.image} alt="" />
                         <p>
                             <sub>
-                                <b>Figure 2:</b> Me, April 2022
+                                <b>Figure 2:</b> Proof I have a degree.
                             </sub>
                         </p>
                     </div>
@@ -115,8 +116,12 @@ const About: React.FC<AboutProps> = (props) => {
                 <br />
                 <p>
                     Thanks for reading about me! I hope that you enjoy exploring
-                    the rest of my portfolio website and everything it has to
-                    offer. 
+                    the rest of my portfolio website and if you don't think Interstellar is the 
+                    best movie ever please share your thoughts <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href={'https://youtu.be/Ram7AKbtkGE?si=pMwaZYoEEcsLgBS4'}
+                        >here.</a>
                 </p>
                 <br />
                 <p>
@@ -124,7 +129,7 @@ const About: React.FC<AboutProps> = (props) => {
                     them. You can reach me through the{' '}
                     <Link to="/contact">contact page</Link> or shoot me an email
                     at{' '}
-                    <a href="kevinsolvera@gmail.com">
+                    <a href="mailto:kevinsolvera@gmail.com">
                         kevinsolvera@gmail.com
                     </a>
                 </p>
