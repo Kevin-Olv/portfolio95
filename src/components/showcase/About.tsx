@@ -1,5 +1,5 @@
 import React from 'react';
-import me from '../../assets/pictures/workingAtComputer.jpg';
+import me from '../../assets/pictures/falcon.jpeg';
 import meNow from '../../assets/pictures/currentme.jpg';
 import { Link } from 'react-router-dom';
 import ResumeDownload from './ResumeDownload';
@@ -73,7 +73,14 @@ const About: React.FC<AboutProps> = (props) => {
                  website to tell you my story.
                 </p>
                 <br />
-                <br />
+                <div className="captioned-image">
+                            <img src={meNow} style={styles.verticalImage} alt="" />
+                                <p>
+                                <sub>
+                                    <b>Figure 2:</b> Proof I have a Degree
+                                </sub>
+                                </p>
+                        </div>
                 <div style={{}}>
                     <div
                         style={{
@@ -86,31 +93,36 @@ const About: React.FC<AboutProps> = (props) => {
                         <h3>My Hobbies</h3>
                         <br />
                         <p>
-                            Beyond software, I love watching movies. My family's pastime was
-                            buying two movie tickets and managing to get a family 
-                            of 5 in. Sometimes we'd sneak into a second movie if we saw
-                            something good playing in the theatre next to us.
-                            (Unfortunately, AMC caught on and now requires you pick your seats.)
+                            Beyond software, I love watching movies. AMC hates me for abusing their
+                            AMC A-List membership and claiming all 3 of my free movies weekly.
                             Like every real stem major, my favorite movie is Interstellar. (Dune 2 
                             might take its spot, let me give it sometime to confirm this isn't recency bias)
-                            
-                        </p>
-                        <br />
-                        <p>
-                        Some other hobbies I
-                            enjoy are working out (anything but legs), watching F1, and 
+                            Some other hobbies I
+                            enjoy are working out, watching F1, and 
                             playing video games until my friends and I accept that we are not very good at the
                             game we play everyday. 
                         </p>
+                        <br />
+                        <p>
+                            As I navigate my career and develop my skills in programming, I hope to 
+                            make it a hobby to finish more projects. Stay tuned as I develop the following
+                            projects:
+                            <ul>
+                                <li>Recreating JARVIS using OpenAI's API</li>
+                                <li>Create my own GIT</li>
+                                <li>Personal Finance Tracker</li>
+                            </ul>
+                            
+                        </p>
                     </div>
-                    <div style={styles.verticalImage}>
-                        <img src={meNow} style={styles.image} alt="" />
+                    {/* <div style={styles.image}>
+                        <img src={meNow} style={styles.verticalImage} alt="" />
                         <p>
                             <sub>
                                 <b>Figure 2:</b> Proof I have a degree.
                             </sub>
                         </p>
-                    </div>
+                    </div> */}
                 </div>
                 <br />
                 <br />
@@ -144,8 +156,8 @@ const styles: StyleSheetCSS = {
         fontSize: 48,
     },
     image: {
-        height: 'auto',
-        width: '100%',
+        height: 500,
+        width: 600,
     },
     topImage: {
         height: 'auto',
@@ -153,13 +165,11 @@ const styles: StyleSheetCSS = {
         marginBottom: 32,
     },
     verticalImage: {
-        alignSelf: 'center',
-        // width: '80%',
-        marginLeft: 32,
-        flex: 0.8,
+        width: 600,
+        height: 750,
 
         alignItems: 'center',
-        // marginBottom: 32,
+        marginBottom: 32,
         textAlign: 'center',
         flexDirection: 'column',
     },

@@ -53,19 +53,19 @@ const APPLICATIONS: {
         name: 'Scrabble',
         shortcutIcon: 'scrabbleIcon',
         component: Scrabble,
-    },
-    henordle: {
-        key: 'henordle',
-        name: 'Henordle',
-        shortcutIcon: 'henordleIcon',
-        component: Henordle,
-    },
-    credits: {
-        key: 'credits',
-        name: 'Credits',
-        shortcutIcon: 'credits',
-        component: Credits,
-    },
+    }
+    // henordle: {
+    //     key: 'kevordle',
+    //     name: 'kevordle',
+    //     shortcutIcon: 'henordleIcon',
+    //     component: Henordle,
+    // },
+    // //credits: {
+    //     key: 'credits',
+    //     name: 'Credits',
+    //     shortcutIcon: 'credits',
+    //     component: Credits,
+    //},
 };
 
 const Desktop: React.FC<DesktopProps> = (props) => {
