@@ -5,3 +5,4 @@
 [build.environment]
   NODE_VERSION = "22.0.0"
   PNPM_VERSION = "7.33.7"
+  COREPACK_ENABLE_STRICT = "0"
