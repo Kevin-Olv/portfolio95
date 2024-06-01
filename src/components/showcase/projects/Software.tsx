@@ -2,7 +2,7 @@ import React from 'react';
 // @ts-ignore
 import saga from '../../../assets/pictures/projects/software/saga.mp4';
 // @ts-ignore
-import computer from '../../../assets/pictures/projects/software/computer.mp4';
+import computer from '../../../assets/pictures/projects/software/kevin-olveradotcom.jpg';
 // @ts-ignore
 import scroll from '../../../assets/pictures/projects/software/scroll.mp4';
 import ResumeDownload from '../ResumeDownload';
@@ -42,7 +42,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 </p>
                 <br />
                 <div className="captioned-image">
-                    <VideoAsset src={computer} />
+                    <img src={computer} />
                     <p style={styles.caption}>
                         <sub>
                             <b>Figure 1:</b> Blender Scene of the 3D website.
