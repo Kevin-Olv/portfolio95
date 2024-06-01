@@ -27,15 +27,18 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 <h2>kevinolvera.com</h2>
                 <br />
                 <p>
-                    henryheffernan.com is my portfolio website, and also the
-                    website you are on right now. This project was an absolute
-                    joy to make and challenged me both technically and
-                    creatively. Early in 2022, I knew I wanted to make an
-                    interactive portfolio to aid my job search. I eventually got
-                    the idea for this site around early February and began
-                    development early March. I've been developing it alongside
-                    my last semester at school and if you are reading this, it's
-                    pretty much done!
+                    kevin-olvera.com is my portfolio website, and also the
+                    website you are on right now. I've wanted to create a 
+                    portfolio site for a few years now but never found the 
+                    time to sit down and convert my resume into a working
+                    website. I also struggled deciding how I wanted the site
+                    to look. A portfolio allows you to be a bit more creative
+                    and share what doesn't fit on your resume. 
+
+                    I've always loved the aesthtic old technology had, software used to have character
+                    and over the years we have minimalized it to have no personality. I came across this 
+                    Windows 95 theme in another repository and knew I had to adapt it to be my portfolio
+                    site's theme.
                 </p>
                 <br />
                 <div className="captioned-image">
