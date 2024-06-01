@@ -10,6 +10,7 @@ specifiers:
   '@types/react': ^18.3.1
   '@types/react-dom': ^18.3.0
   emulators-ui: ^0.73.9
+  eslint-plugin-react-hooks: ^4.6.2
   framer-motion: ^11.1.8
   g: ^2.0.1
   js-dos: ^7.5.0
@@ -49,6 +50,9 @@ dependencies:
   usehooks-ts: 3.1.0_react@18.3.1
   web-vitals: 3.5.2
   webpack: 5.91.0
+
+devDependencies:
+  eslint-plugin-react-hooks: 4.6.2
 
 packages:
 
@@ -4929,6 +4933,13 @@ packages:
       object.entries: 1.1.8
       object.fromentries: 2.0.8
     dev: false
+
+  /eslint-plugin-react-hooks/4.6.2:
+    resolution: {integrity: sha512-QzliNJq4GinDBcD8gPB5v0wh6g8q3SUi6EFF0x8N/BL9PoVs0atuGc47ozMRyOWAKdwaZ5OnbOEa3WR+dSGKuQ==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
+    dev: true
 
   /eslint-plugin-react-hooks/4.6.2_eslint@8.57.0:
     resolution: {integrity: sha512-QzliNJq4GinDBcD8gPB5v0wh6g8q3SUi6EFF0x8N/BL9PoVs0atuGc47ozMRyOWAKdwaZ5OnbOEa3WR+dSGKuQ==}
