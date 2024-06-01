@@ -52,22 +52,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     </p>
                 </div>
                 <p>
-                    Now, a quick technical breakdown of the site. The website is
-                    split into two parts, the 3D site, and the 2D OS site. The
-                    3D site uses Three.js to render the scene and renders the 2D
-                    site inside of it using an iframe. The 2D OS site is a
-                    simple react site that is hosted{' '}
-                    <a
-                        rel="noreferrer"
-                        target="_blank"
-                        href="https://henryheffernan.vercel.app/"
-                    >
-                        here
-                    </a>{' '}
-                    and works as a standalone web app. The actual rendering of
-                    the 2D site is accomplished using a CSS renderer provided by
-                    Three.js that transforms the html of the 2D site with 3D CSS
-                    transforms to give the illusion of three dimensionality.
+                    My goal for this site is to continue adding my projects, and making them
+                    shortcuts on the desktop. While no one likes a messy desktop, a desktop 
+                    full of fun projects might change your mind.
+                    
                 </p>
                 <br />
                 <h3>Links:</h3>
@@ -76,10 +64,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://henryheffernan.com"
+                            href="kevin-olvera.com"
                         >
                             <p>
-                                <b>[3D Site]</b> - henryheffernan.com
+                                <b>Site</b> - kevin-olvera.com
                             </p>
                         </a>
                     </li>
@@ -87,15 +75,24 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://henryheffernan.vercel.app/"
+                            href="https://github.com/Kevin-Olv/portfolio95"
                         >
                             <p>
-                                <b>[OS Site]</b> - henryheffernan.vercel.app
+                                <b>[Github Repository]</b> - Portfolio95
                             </p>
                         </a>
                     </li>
                 </ul>
             </div>
+            <div className="text-block">
+                <h2>Project 2</h2>
+                <br />
+                <p>
+                    Project 2 details
+                </p>
+                <br />
+            </div>
+            
             <ResumeDownload />
         </div>
     );
