@@ -24,7 +24,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
             <ResumeDownload />
             <br />
             <div className="text-block">
-                <h2>henryheffernan.com</h2>
+                <h2>kevinolvera.com</h2>
                 <br />
                 <p>
                     henryheffernan.com is my portfolio website, and also the
