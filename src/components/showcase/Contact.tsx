@@ -63,7 +63,7 @@ const Contact: React.FC<ContactProps> = (props) => {
                 message,
             };
 
-            const result = await emailjs.send("service_fn61kt1","template_1dtj09q");
+            const result = await emailjs.send("service_fn61kt1","template_1dtj09q", templateParams);
 
             if (result.status === 200) {
                 setFormMessage(`Message successfully sent. Thank you ${name}!`);
