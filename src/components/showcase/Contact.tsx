@@ -77,6 +77,7 @@ const Contact: React.FC<ContactProps> = (props) => {
                 setFormMessageColor(colors.red);
             }
         } catch (e) {
+            console.error('Error:', e); // Log the error to the console
             setFormMessage('There was an error sending your message. Please try again.');
             setFormMessageColor(colors.red);
         } finally {
