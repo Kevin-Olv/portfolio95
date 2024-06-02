@@ -1,16 +1,15 @@
-import React, { useEffect, useState, useCallback, useRef } from 'react';
+import React, { useEffect, useState, CSSProperties } from 'react';
+import emailjs from 'emailjs-com';
 import colors from '../../constants/colors';
 import ghIcon from '../../assets/pictures/contact-gh.png';
 import inIcon from '../../assets/pictures/contact-in.png';
 import ResumeDownload from './ResumeDownload';
-//import emailjs from '@emailjs/browser';
 
 export interface ContactProps {}
 
 // function to validate email
 const validateEmail = (email: string) => {
     const re =
-        // eslint-disable-next-line
         /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
 };
@@ -48,7 +47,8 @@ const Contact: React.FC<ContactProps> = (props) => {
         }
     }, [email, name, message]);
 
-    async function submitForm() {
+    async function submitForm(e: React.FormEvent) {
+        e.preventDefault();
         if (!isFormValid) {
             setFormMessage('Form unable to validate, please try again.');
             setFormMessageColor('red');
@@ -56,46 +56,30 @@ const Contact: React.FC<ContactProps> = (props) => {
         }
         try {
             setIsLoading(true);
-            const res = await fetch(
-                'https://formspree.io/f/mwkgzprn',
-                {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({
-                        company,
-                        email,
-                        name,
-                        message,
-                    }),
-                }
-            );
-            // the response will be either {success: true} or {success: false, error: message}
-            const data = (await res.json()) as
-                | {
-                      success: false;
-                      error: string;
-                  }
-                | { success: true };
-            if (data.success) {
+            const templateParams = {
+                company,
+                email,
+                name,
+                message,
+            };
+
+            const result = await emailjs.send("service_fn61kt1","template_1dtj09q");
+
+            if (result.status === 200) {
                 setFormMessage(`Message successfully sent. Thank you ${name}!`);
                 setCompany('');
                 setEmail('');
                 setName('');
                 setMessage('');
                 setFormMessageColor(colors.blue);
-                setIsLoading(false);
             } else {
-                setFormMessage(data.error);
+                setFormMessage('There was an error sending your message. Please try again.');
                 setFormMessageColor(colors.red);
-                setIsLoading(false);
             }
         } catch (e) {
-            setFormMessage(
-                'There was an error sending your message. Please try again.'
-            );
+            setFormMessage('There was an error sending your message. Please try again.');
             setFormMessageColor(colors.red);
+        } finally {
             setIsLoading(false);
         }
     }
@@ -139,7 +123,7 @@ const Contact: React.FC<ContactProps> = (props) => {
                     </a>
                 </p>
 
-                <div style={styles.form}>
+                <form style={styles.form} onSubmit={submitForm}>
                     <label>
                         <p>
                             {!name && <span style={styles.star}>*</span>}
@@ -177,7 +161,7 @@ const Contact: React.FC<ContactProps> = (props) => {
                     </label>
                     <input
                         style={styles.formItem}
-                        type="company"
+                        type="text"
                         name="company"
                         placeholder="Company"
                         value={company}
@@ -202,7 +186,6 @@ const Contact: React.FC<ContactProps> = (props) => {
                             style={styles.button}
                             type="submit"
                             disabled={!isFormValid || isLoading}
-                            onMouseDown={submitForm}
                         >
                             {!isLoading ? (
                                 'Send Message'
@@ -212,10 +195,7 @@ const Contact: React.FC<ContactProps> = (props) => {
                         </button>
                         <div style={styles.formInfo}>
                             <p
-                                style={Object.assign(
-                                    {},
-                                    { color: formMessageColor }
-                                )}
+                                style={{ color: formMessageColor }}
                             >
                                 <b>
                                     <sub>
@@ -239,15 +219,16 @@ const Contact: React.FC<ContactProps> = (props) => {
                             </p>
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
             <ResumeDownload altText="Need a copy of my Resume?" />
         </div>
     );
 };
 
-const styles: StyleSheetCSS = {
+const styles: { [key: string]: CSSProperties } = {
     form: {
+        display: 'flex',
         flexDirection: 'column',
         marginTop: 32,
     },
@@ -260,12 +241,13 @@ const styles: StyleSheetCSS = {
         height: 36,
     },
     buttons: {
+        display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
     },
     formInfo: {
         textAlign: 'right',
-
+        display: 'flex',
         flexDirection: 'column',
         alignItems: 'flex-end',
         paddingLeft: 24,
@@ -279,18 +261,17 @@ const styles: StyleSheetCSS = {
         height: 32,
     },
     header: {
+        display: 'flex',
         alignItems: 'flex-end',
         justifyContent: 'space-between',
     },
     socials: {
         marginBottom: 16,
+        display: 'flex',
         justifyContent: 'flex-end',
     },
     social: {
-        width: 4,
-        height: 4,
-        // borderRadius: 1000,
-
+        display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         marginLeft: 8,

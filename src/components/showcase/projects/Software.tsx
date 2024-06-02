@@ -24,7 +24,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
             <ResumeDownload />
             <br />
             <div className="text-block">
-                <h2>kevinolvera.com</h2>
+                <h2>kevin-olvera.com</h2>
                 <br />
                 <p>
                     kevin-olvera.com is my portfolio website, and also the
@@ -45,9 +45,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     <img src={computer} alt=""/>
                     <p style={styles.caption}>
                         <sub>
-                            <b>Figure 1:</b> Blender Scene of the 3D website.
-                            The scene from Blender was baked and exported in a
-                            GLTF format.
+                            <b>Figure 1:</b> Home page of portfolio95
                         </sub>
                     </p>
                 </div>
