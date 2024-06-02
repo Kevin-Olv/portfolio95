@@ -86,7 +86,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 <h2>Project 2</h2>
                 <br />
                 <p>
-                    Project 2 details
+                    Coming Soon!
                 </p>
                 <br />
             </div>

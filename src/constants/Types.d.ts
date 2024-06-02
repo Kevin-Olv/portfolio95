@@ -17,3 +17,8 @@ declare type DesktopWindows = {
         icon: IconName;
     };
 };
+
+declare module "*.png";
+declare module "*.svg";
+declare module "*.jpeg";
+declare module "*.jpg";
