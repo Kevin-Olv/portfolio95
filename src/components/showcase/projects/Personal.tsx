@@ -1,6 +1,7 @@
 import React from 'react';
 import RCLC from '../../../assets/pictures/projects/audio/RCLC.png';
 import { styles } from '../../os/DragIndicator';
+import ResumeDownload from '../ResumeDownload';
 
 export interface PersonalProjectsProps {}
 
@@ -25,17 +26,13 @@ const PersonalProjects: React.FC<PersonalProjectsProps> = (props) => {
                     <img src={RCLC} alt=''/>
                     <p style={styles.caption}>
                         <sub>
-                            <b>Figure 1:</b>Photo taken during lesson
+                            <b>Figure 1: </b>Photo taken during a lesson
                         </sub>
                     </p>
                 </div>
-                <p>
-
-                </p>
+                <br />
+                <ResumeDownload />
             </div>
-            <p>
-                <b>Coming Soon!</b>
-            </p>
             
         </div>
     );

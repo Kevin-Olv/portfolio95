@@ -16,7 +16,7 @@ const About: React.FC<AboutProps> = (props) => {
             <br />
             <div className="text-block">
                 <p>
-                    I'm a software engineer currently working at Fast Enterprises! In May
+                    I'm a Software Engineer currently working at Fast Enterprises! In May
                     of 2023 I graduated from the University of Notre Dame
                     with my BS in Computer Science.
                 </p>
@@ -38,11 +38,17 @@ const About: React.FC<AboutProps> = (props) => {
                 <br />
                 <p>
                 Growing up, I always had a fascination with building things, 
-                whether that be legos or computers. It wasn’t until college that 
-                I realized I love the idea of building something, but I hate actually 
-                building things. Legos are great until you realize it’s going to take 
+                whether that be legos or computers. POursuing a career in technology
+                has allowed me to continue that fascination, but practicing it on a 
+                new medium. When I first started programming, I had trouble grasping
+                new topics and building even the smallest of programs. 
+                I'd I asked myself, "Do I actually like this?", which took me back 
+                to when I'd ask myself the same question while building some Legos.
+                Legos are great until you realize it’s going to take 
                 you 8 hours to put together thousands of pieces of plastic to kiiiind 
-                of resemble the Millennium Falcon from Star Wars. 
+                of resemble the Millennium Falcon from Star Wars. I still built it though.
+                And I love how it looks on my shelf so why not build this new Lego set I call
+                programmin skills and see how that looks on a
 
                 </p>
                 <br />
@@ -68,7 +74,7 @@ const About: React.FC<AboutProps> = (props) => {
                 Over these years I gained
                  experience in many different technologies, ranging from 
                  backend development with SQL to front-end development with 
-                 React to make this website.The piece of paper that is my 
+                 React to make this website. The piece of paper that is my 
                  resume tells you my qualifications, but my goal is for this 
                  website to tell you my story.
                 </p>
