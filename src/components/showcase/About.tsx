@@ -38,18 +38,16 @@ const About: React.FC<AboutProps> = (props) => {
                 <br />
                 <p>
                 Growing up, I always had a fascination with building things, 
-                whether that be legos or computers. POursuing a career in technology
-                has allowed me to continue that fascination, but practicing it on a 
+                whether that be lego sets or computers. Pursuing a career in technology
+                has allowed me to continue that hobby, but practice it on a 
                 new medium. When I first started programming, I had trouble grasping
-                new topics and building even the smallest of programs. 
+                new topics and building even the smallest of programs for classes. 
                 I'd I asked myself, "Do I actually like this?", which took me back 
                 to when I'd ask myself the same question while building some Legos.
                 Legos are great until you realize it’s going to take 
                 you 8 hours to put together thousands of pieces of plastic to kiiiind 
                 of resemble the Millennium Falcon from Star Wars. I still built it though.
-                And I love how it looks on my shelf so why not build this new Lego set I call
-                programmin skills and see how that looks on a
-
+                And as you'll soon see, I still got my degree.
                 </p>
                 <br />
                 <div className="captioned-image">
