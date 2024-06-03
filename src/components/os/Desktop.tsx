@@ -32,7 +32,7 @@ const APPLICATIONS: {
     // },
     showcase: {
         key: 'showcase',
-        name: 'My Showcase',
+        name: 'My Portfolio',
         shortcutIcon: 'showcaseIcon',
         component: ShowcaseExplorer,
     },
@@ -105,7 +105,7 @@ const Desktop: React.FC<DesktopProps> = (props) => {
         });
 
         newShortcuts.forEach((shortcut) => {
-            if (shortcut.shortcutName === 'My Showcase') {
+            if (shortcut.shortcutName === 'My Portfolio') {
                 shortcut.onOpen();
             }
         });
