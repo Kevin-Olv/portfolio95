@@ -97,12 +97,10 @@ const About: React.FC<AboutProps> = (props) => {
                         <h3>My Hobbies</h3>
                         <br />
                         <p>
-                            Beyond software, I love watching movies. AMC hates me for abusing their
-                            AMC A-List membership and claiming all 3 of my free movies weekly.
-                            Like every real stem major, my favorite movie is Interstellar. (Dune 2 
-                            might take its spot, let me give it sometime to confirm this isn't recency bias)
+                            Beyond software, I love watching movies (AMC A-List Member)
+                            Like every real stem major, my favorite movie is Interstellar. 
                             Some other hobbies I
-                            enjoy are working out, watching F1, and 
+                            enjoy are working out, cooking, and 
                             playing video games until my friends and I accept that we are not very good at the
                             game we play everyday. 
                         </p>
