@@ -27,18 +27,16 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 <h2>kevin-olvera.com</h2>
                 <br />
                 <p>
-                    kevin-olvera.com is my portfolio website, and also the
-                    website you are on right now. I've wanted to create a 
-                    portfolio site for a few years now but never found the 
-                    time to sit down and convert my resume into a working
-                    website. I also struggled deciding how I wanted the site
-                    to look. A portfolio allows you to be a bit more creative
-                    and share what doesn't fit on your resume. 
+                Welcome to kevin-olvera.com, my portfolio website. I've wanted to 
+                create a portfolio site for years but never found the time to convert 
+                my resume into a working website. I also struggled with deciding on 
+                the site's look. A portfolio allows for more creativity and the opportunity 
+                to share what doesn't fit on a resume.
 
-                    I've always loved the aesthtic old technology had, software used to have character
-                    and over the years we have minimalized it to have no personality. I came across this 
-                    Windows 95 theme in another repository and knew I had to adapt it to be my portfolio
-                    site's theme.
+                I've always loved the aesthetic of old technology; software used to have 
+                character, but over the years, we've minimalized it to the point of having 
+                no personality. When I came across a retro website repository, 
+                I knew I had to adapt it for my portfolio site.
                 </p>
                 <br />
                 <div className="captioned-image">
@@ -50,10 +48,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     </p>
                 </div>
                 <p>
-                    My goal for this site is to continue adding my projects, and making them
-                    shortcuts on the desktop. While no one likes a messy desktop, a desktop 
-                    full of fun projects might change your mind.
-                    
+                My goal for this site is to continually add my projects and make them a
+                ccessible as shortcuts on the desktop. While no one likes a cluttered 
+                desktop, a desktop full of fun and interesting projects might just 
+                change your mind.
                 </p>
                 <br />
                 <h3>Links:</h3>

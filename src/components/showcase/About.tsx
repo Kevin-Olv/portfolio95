@@ -16,9 +16,9 @@ const About: React.FC<AboutProps> = (props) => {
             <br />
             <div className="text-block">
                 <p>
-                    I'm a Software Engineer currently working at Fast Enterprises! In May
-                    of 2023 I graduated from the University of Notre Dame
-                    with my BS in Computer Science.
+                Hi, I'm a Software Engineer currently working at Fast Enterprises.
+                 I graduated from the University of Notre Dame in May 2023 with 
+                 a Bachelor's degree in Computer Science.
                 </p>
                 <br />
                 <p>
@@ -37,17 +37,18 @@ const About: React.FC<AboutProps> = (props) => {
                 <h3>About Me</h3>
                 <br />
                 <p>
-                Growing up, I always had a fascination with building things, 
-                whether that be lego sets or computers. Pursuing a career in technology
-                has allowed me to continue that hobby, but practice it on a 
-                new medium. When I first started programming, I had trouble grasping
-                new topics and building even the smallest of programs for classes. 
-                I'd I asked myself, "Do I actually like this?", which took me back 
-                to when I'd ask myself the same question while building some Legos.
-                Legos are great until you realize it’s going to take 
+                Growing up, I was always fascinated by building things, whether 
+                it was assembling Lego sets or working on computers. Pursuing 
+                a career in technology has allowed me to continue this hobby 
+                on a new medium. When I first started programming, I struggled 
+                to grasp new concepts and build even the simplest programs for my 
+                classes. I questioned myself, 'Do I actually like this?' This took 
+                me back to when I'd ask the same question while building complex 
+                Lego sets. 
+                They are great until you realize it’s going to take 
                 you 8 hours to put together thousands of pieces of plastic to kiiiind 
                 of resemble the Millennium Falcon from Star Wars. I still built it though.
-                And as you'll soon see, I still got my degree.
+                And as you'll soon see, I still earned my degree.
                 </p>
                 <br />
                 <div className="captioned-image">
@@ -60,21 +61,19 @@ const About: React.FC<AboutProps> = (props) => {
                 </div>
 
                 <p>
-                In 2019, I was accepted to the University of Notre Dame 
-                where I studied Computer Science. It was here that I realized,
-                Throughout my time there, I interned at IDEA Public Schools, 
-                KR Logistics, and Oracle.  After graduating, I landed a job 
-                with Fast Enterprises developing software with Maryland’s 
-                Department of Transportation.  
+                In 2019, I was accepted to the University of Notre Dame to 
+                study Computer Science. During my time there, I interned at 
+                IDEA Public Schools, KR Logistics, and Oracle. After graduating, 
+                I secured a position with Fast Enterprises, where I develop 
+                software for Maryland’s Department of Transportation.
                 </p>
                 <br />
                 <p>
-                Over these years I gained
-                 experience in many different technologies, ranging from 
-                 backend development with SQL to front-end development with 
-                 React to make this website. The piece of paper that is my 
-                 resume tells you my qualifications, but my goal is for this 
-                 website to tell you my story.
+                Throughout these years, I gained experience in various technologies, 
+                from backend development with SQL to frontend development with React, 
+                which I used to create this website. My resume provides a list of my 
+                qualifications, but my goal for this website is to share my journey of
+                becoming a better programmer.
                 </p>
                 <br />
                 <div className="captioned-image">
@@ -97,12 +96,10 @@ const About: React.FC<AboutProps> = (props) => {
                         <h3>My Hobbies</h3>
                         <br />
                         <p>
-                            Beyond software, I love watching movies (AMC A-List Member)
-                            Like every real stem major, my favorite movie is Interstellar. 
-                            Some other hobbies I
-                            enjoy are working out, cooking, and 
-                            playing video games until my friends and I accept that we are not very good at the
-                            game we play everyday. 
+                        Beyond software, I'm an avid movie enthusiast (yes, I'm an AMC A-List Member).
+                         Like every true STEM major, my favorite movie is Interstellar. I also enjoy 
+                         working out, cooking, and playing video games with friends until we accept 
+                         that we're not very good at the game we play every day. 
                         </p>
                         <br />
                         <p>
@@ -117,14 +114,6 @@ const About: React.FC<AboutProps> = (props) => {
                             
                         </p>
                     </div>
-                    {/* <div style={styles.image}>
-                        <img src={meNow} style={styles.verticalImage} alt="" />
-                        <p>
-                            <sub>
-                                <b>Figure 2:</b> Proof I have a degree.
-                            </sub>
-                        </p>
-                    </div> */}
                 </div>
                 <br />
                 <br />

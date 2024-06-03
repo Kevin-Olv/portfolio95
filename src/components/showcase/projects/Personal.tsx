@@ -16,10 +16,12 @@ const PersonalProjects: React.FC<PersonalProjectsProps> = (props) => {
                 <h2>Senior Technology Class</h2>
                 <br />
                 <p>
-                    Helped lead a weekly class held at the Robinson Community Learning Center. Each week we'd 
-                    spend half the class teaching the senior citizens how to use important apps such as Uber, Youtube,
-                    mobile banking apps, Google Maps, etc. The second half of the class we'd spend helping them 
-                    practice what they learned or assisting them with their personal technology related issues.
+                Led a weekly class at the Robinson Community Learning Center, where 
+                we taught senior citizens how to use essential apps like Uber, YouTube, 
+                mobile banking, and Google Maps. Each session was divided into two parts: 
+                the first half focused on instruction, while the second half was dedicated 
+                to helping them practice what they learned and assisting with their personal 
+                technology-related issues.
                 </p>
                 <br />
                 <div className='captioned-image'>
